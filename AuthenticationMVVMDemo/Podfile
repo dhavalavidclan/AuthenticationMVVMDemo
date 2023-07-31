@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AuthenticationMVVMDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AuthenticationMVVMDemo
+    pod 'Alamofire'
+  target 'AuthenticationMVVMDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+        pod 'Alamofire'
+  end
+
+end
